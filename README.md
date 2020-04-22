@@ -16,8 +16,17 @@ doi = {10.1109/ICFHR.2014.109}
 ```
 In addition to this we performed some experiments on using custom hand-crafted features of images to train simple classifiers to recognise a Genuine or Forged Signature in a database.
 
+Also additionally we have implemented a Keras-Tensorflow implementation of [SigNet: Convolutional Siamese Network for Writer Independent Offline Signature Verification]() by Sounak Dey, Anjan Dutta, J. Ignacio Toledo, Suman K.Ghosh, Josep Llados, Umapada Pal published in Pattern Recognition Letters
 
-The dataset is hosted at http://intrinsic.cs.cornell.edu/.
+```
+@article{article,
+author = {Dey, Sounak and Dutta, Anjan and Toledo, J. and Ghosh, Suman and Lladós, Josep and Pal, Umapada},
+year = {2017},
+month = {07},
+pages = {},
+title = {SigNet: Convolutional Siamese Network for Writer Independent Offline Signature Verification}
+}
+```
 - Note : The paper linked here is from IEEEExplore. Make sure you have a valid subscription.
 
 Dependencies
